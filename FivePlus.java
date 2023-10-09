@@ -3,7 +3,8 @@ package Week2;
 public class FivePlus {
 
     public static void main(String[] args) {
-        int n = 25; // Kullanıcıdan alınan değer
+        Scanner sc=new Scanner(System.in);
+        int n = sc.nextInt(); // Kullanıcıdan alınan değer
         recursiveIslem(n);
     }
 
